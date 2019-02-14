@@ -62,6 +62,7 @@ protected:
   Ogre::RenderWindow* render_window_;
 
   QFrame* renderFrame;
+  int pixel_ratio_;
 };
 
 } // end namespace rviz
